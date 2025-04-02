@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Alice Smith",
+    "id_document": "Passport - USA - Valid",
+    "country": "USA",
+    "watchlist_flags": [],
+    "income": 85000,
+    "age": 34
+  },
+  {
+    "name": "John Doe",
+    "id_document": "Driver's License - Suspended",
+    "country": "Unknown",
+    "watchlist_flags": ["Sanctions Watch"],
+    "income": 12000,
+    "age": 44
+  }
+]

@@ -1,0 +1,12 @@
+supervisor:
+  goal: "Complete KYC check for all new customers"
+  sub_agents:
+    - name: "IDValidator"
+      model: "gpt-4o"
+      instructions: "Check if the customer's ID document meets compliance criteria."
+    - name: "WatchlistChecker"
+      model: "gpt-4o"
+      instructions: "Check if the customer is on any known watchlists."
+    - name: "RiskScorer"
+      model: "gpt-4o"
+      instructions: "Give a risk score from 1 to 10 based on customer profile data."

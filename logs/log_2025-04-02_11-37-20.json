@@ -1,0 +1,12 @@
+{
+  "Alice Smith": {
+    "IDValidator": "The customer's ID document meets compliance criteria. The passport is valid, there are no watchlist flags, and all provided information is consistent with the requirements.",
+    "WatchlistChecker": "The customer, Alice Smith, is not on any known watchlists as indicated by the absence of watchlist flags in the provided information.",
+    "RiskScorer": "Risk Score: 2\n\nExplanation: Alice Smith has a valid U.S. passport, no watchlist flags, resides in the USA, and has a stable income. These factors contribute to a low-risk profile."
+  },
+  "John Doe": {
+    "IDValidator": "The customer's ID document does not meet compliance criteria due to the following reasons:\n\n1. **ID Document Issue**: The driver's license is suspended, which is not a valid form of identification for KYC purposes.\n2. **Country Information**: The country is listed as \"Unknown,\" which is insufficient for compliance checks.\n3. **Watchlist Flags**: The customer is flagged on a sanctions watchlist, which requires further investigation and likely disqualifies them from passing compliance.\n\nThe customer does not meet the necessary compliance criteria.",
+    "WatchlistChecker": "The customer, John Doe, is flagged on a known watchlist: \"Sanctions Watch.\" Further investigation and due diligence are recommended to assess any potential risks or compliance issues associated with this individual.",
+    "RiskScorer": "Based on the provided customer profile data, the risk score is 9 out of 10. \n\nFactors contributing to this high risk score include:\n- The customer's ID document is a suspended driver's license.\n- The country of residence is unknown, which adds uncertainty.\n- The customer is flagged on a sanctions watchlist, indicating potential legal or regulatory issues.\n- The income level is relatively low, which may raise concerns about financial stability.\n\nThese factors collectively suggest a high-risk profile."
+  }
+}

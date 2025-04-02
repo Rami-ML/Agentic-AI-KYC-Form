@@ -1,0 +1,12 @@
+{
+  "Alice Smith": {
+    "IDValidator": "The customer's ID document meets compliance criteria. The passport is valid, there are no watchlist flags, and the customer is of legal age.",
+    "WatchlistChecker": "The customer, Alice Smith, is not on any known watchlists as indicated by the empty \"watchlist_flags\" field.",
+    "RiskScorer": "Based on the provided customer profile data for Alice Smith, the risk score is 2.\n\n**Reasoning:**\n- **ID Document:** Valid USA passport, indicating a low risk of identity issues.\n- **Country:** USA, generally considered low risk in terms of financial regulations and stability.\n- **Watchlist Flags:** None, suggesting no known issues with regulatory or compliance lists.\n- **Income:** $85,000, a stable income level reducing financial risk.\n- **Age:** 34, typically a low-risk age group for financial activities.\n\nOverall, Alice Smith presents a low-risk profile."
+  },
+  "John Doe": {
+    "IDValidator": "The customer's ID document does not meet compliance criteria due to the following reasons:\n\n1. **ID Document Issue**: The driver's license is suspended, which is not a valid form of identification.\n2. **Country Information**: The country is listed as \"Unknown,\" which is insufficient for compliance verification.\n3. **Watchlist Flags**: The customer is flagged on the \"Sanctions Watch,\" which requires further investigation and likely disqualifies them from passing KYC checks.\n\nThe customer does not meet the necessary compliance criteria. Further action and investigation are required.",
+    "WatchlistChecker": "The customer, John Doe, is flagged on a watchlist under \"Sanctions Watch.\" This indicates that he may be subject to certain restrictions or prohibitions due to sanctions. Further investigation and due diligence are recommended to ensure compliance with relevant regulations.",
+    "RiskScorer": "Based on the provided customer profile data, the risk score for John Doe is 9 out of 10. \n\nFactors contributing to this high risk score include:\n- The presence of a suspended driver's license.\n- The country being listed as \"Unknown,\" which raises concerns about identity verification.\n- A flag on the \"Sanctions Watch\" list, indicating potential legal or regulatory issues.\n- A relatively low income, which may not align with certain financial activities.\n\nThese elements suggest a high level of risk associated with this customer profile."
+  }
+}
